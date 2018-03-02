@@ -22,7 +22,7 @@ export class StoreComponent implements OnInit {
     .subscribe(function(prods) {
       self.tableData = prods.data;
       self.tableData = self.tableData.filter(function(element, index, array){
-        return element.SellerName === 'yomna';
+        return element.SellerName === 'yomna' || element.SellerName === 'mariam'||element.SellerName === 'esraa'||element.SellerName === 'ola';
       });
     });
   }//end getProuducts
