@@ -12,3 +12,4 @@ const routes: Routes = [
   declarations: []
 })
 export class StoreRoutingModule { }
+

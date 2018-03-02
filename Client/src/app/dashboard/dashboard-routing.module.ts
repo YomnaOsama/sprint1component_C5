@@ -19,6 +19,10 @@ const routes: Routes = [
         pathMatch: 'full'
       },
       {
+        path: 'items',
+        loadChildren: './items/items.module#ItemsModule'
+      },
+      {
         path: 'store',
         loadChildren: './store/store.module#StoreModule'
       },

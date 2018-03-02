@@ -8,10 +8,8 @@ import { StoreService } from './store.service';
 
 
 @NgModule({
+  imports: [ ThemeModule, StoreRoutingModule, FormsModule],
   providers:[StoreService],
-  imports: [
-    ThemeModule, StoreRoutingModule, FormsModule
-  ],
   declarations: [StoreComponent]
 })
 export class StoreModule { }

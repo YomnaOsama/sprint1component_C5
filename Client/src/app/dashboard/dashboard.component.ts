@@ -11,6 +11,7 @@ import { NbMenuItem } from '@nebular/theme/components/menu/menu.service';
       <nb-menu [items]="menu"></nb-menu>
       <router-outlet></router-outlet>
     </ngx-main-layout>
+
   `
 })
 export class DashboardComponent implements OnInit {
